@@ -13,7 +13,7 @@ def main():
     l12=Label(top1,text="BMI:",fg="red")
     l12.grid(row=1,column=0)
     E12=Entry(top1,bd=5)
-    E12.grid(row=1,column=1)
+    E12.grid(row=1,column=2)
     weight1=int(E3.get())
     height1=float(E4.get())
     age1=int(E2.get())
